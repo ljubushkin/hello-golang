@@ -35,7 +35,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: abbc0d14-a0c0-4720-bf61-d12de1356968/hello-golang
+          images: ljubushkin/hello-golang
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
